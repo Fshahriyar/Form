@@ -1,0 +1,102 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.wrapper{
+    width: 100%;
+    background: linear-gradient(#D1D1D1,#2C3333);
+    height: 100vh;
+    padding: 20px 0px;
+}
+.wrapper h1{
+    text-align: center;
+    color: white;
+    margin-bottom: 30px;
+    font-weight: 300;
+}
+.img-fluid{
+    max-width: 100%;
+    height: 100%;
+    margin-bottom: 130px;
+}
+.form-box{
+    width: 1000px;
+    margin: auto;
+    background-color: white;
+}
+.row{
+    display: flex;
+}
+.left{
+    position: relative;
+}
+.left , .right{
+ flex-basis: 50%;
+}
+.right-content{
+    padding: 5px 20px;
+}
+.right-content h1{
+    color: green;
+    text-transform: capitalize;
+    font-weight: 300;
+}
+.Fgroup{
+    margin: 25px 0px;
+    text-align: center;
+    position: relative;
+}
+.design{
+    padding: 10px;
+    padding-left: 30px;
+    font-weight: 400;
+}
+.Fgroup i{
+    position: absolute;
+    padding-top: 10px;
+    padding-left: 10px;
+    color: green;
+}
+.lst{
+    font-weight: 300;
+}
+.design:focus{
+    outline-color: green;
+}
+.design:focus::placeholder{
+    color: green;
+}
+.btn{
+    background-color: green;
+    color: white;
+    padding: 13px;
+    padding-right: 59px;
+    padding-left: 59px;
+}
+.alla{
+    position: absolute;
+    top: 20%;
+    color: white;
+    left: 98px;
+}
+.allb{
+    position: absolute;
+    top: 28%;
+    color: white;
+    left: 100px;
+    right: 47px;
+}
+.allc{
+    position: absolute;
+    top: 42%;
+    color: white;
+    left: 99px;
+    right: 60px;
+    font-weight: 400 ;   
+}
